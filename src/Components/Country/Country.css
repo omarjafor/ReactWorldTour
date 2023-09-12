@@ -3,6 +3,10 @@
     margin: 15px;
     border-radius: 15px;
 }
+.visited{
+    background-color: aqua;
+    color: black;
+}
 img{
     width: 400px;
     height: 250px;
