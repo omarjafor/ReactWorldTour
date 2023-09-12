@@ -8,6 +8,7 @@ const Countries = () => {
     const [visitedCountry, setVisitedCountry] = useState([]);
 
     const handleVisitedCountry = country => {
+        console.log(country);
         const newVisitedCountry = [...visitedCountry, country];
         setVisitedCountry(newVisitedCountry);
     }
